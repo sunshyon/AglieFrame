@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DbModels\User.cs~RF44d34b1.TMP" />
+    <None Remove="ResultRoot.cs~RF4e3503e.TMP" />
+    <None Remove="ResultRoot.cs~RF4ecc775.TMP" />
+  </ItemGroup>
+
+</Project>

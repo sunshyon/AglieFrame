@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Filter\ActionFilter.cs~RF4f39400.TMP" />
+    <None Remove="TestService.cs~RF41a7849.TMP" />
+    <None Remove="TestService.cs~RF4a4bef8.TMP" />
+    <None Remove="TestService.cs~RF4b740c3.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AglieFrame.Dapper\AglieFrame.Dapper.csproj" />
+    <ProjectReference Include="..\AglieFrame.Interface\AglieFrame.Interface.csproj" />
+    <ProjectReference Include="..\AglieFrame.JWT\AglieFrame.JWT.csproj" />
+    <ProjectReference Include="..\AglieFrame.Model\AglieFrame.Model.csproj" />
+    <ProjectReference Include="..\AglieFrame.NoSql\AglieFrame.NoSql.csproj" />
+    <ProjectReference Include="..\Utility\Utility.csproj" />
+  </ItemGroup>
+
+</Project>
