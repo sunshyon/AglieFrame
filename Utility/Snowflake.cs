@@ -36,7 +36,7 @@ namespace Utility
             {
                 long timestamp = timeGen();
                 if (this.lastTimestamp == timestamp)
-                { //同一微妙中生成ID
+                { //同一微秒中生成ID
                     Snowflake.sequence = (Snowflake.sequence + 1) & Snowflake.sequenceMask; //用&运算计算该微秒内产生的计数是否已经到达上限
                     if (Snowflake.sequence == 0)
                     {
